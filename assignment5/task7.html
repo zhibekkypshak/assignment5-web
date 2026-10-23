@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orbit Control · Trajectory calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="dot"></span>ORBIT</a>
+    <nav class="navbar">
+      <a href="index.html"><i>00</i>Boot</a>
+      <a href="task1.html"><i>01</i>Telemetry</a>
+      <a href="task2.html"><i>02</i>Status</a>
+      <a href="task3.html"><i>03</i>Theme Lab</a>
+      <a href="task4.html"><i>04</i>Crew</a>
+      <a href="task5.html"><i>05</i>Radar</a>
+      <a href="task6.html"><i>06</i>Comms</a>
+      <a href="task7.html" class="active"><i>07</i>Navigator</a>
+      <a href="task8.html"><i>08</i>Planner</a>
+    </nav>
+  </header>
+  <main>
+    <p class="eyebrow">Part 3 · Task 7</p>
+    <h1>Trajectory calculator</h1>
+    <p class="lead">Quick math for the navigator: add, subtract, multiply or divide two values.</p>
+<div class="panel calc">
+<input id="a" type="number" placeholder="Value A">
+<select id="op"><option value="+">+</option><option value="-">−</option><option value="*">×</option><option value="/">÷</option></select>
+<input id="b" type="number" placeholder="Value B">
+<button id="eq">Calculate</button></div>
+<div class="panel"><div class="kicker">Result</div><p class="big mono" id="res">—</p></div>
+  </main>
+  <footer>Orbit Control · Assignment 5 · JavaScript DOM &amp; Events</footer>
+  <script src="js/task7.js"></script>
+</body>
+</html>
